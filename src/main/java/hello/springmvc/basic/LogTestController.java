@@ -32,7 +32,7 @@ public class LogTestController {
         */
 
 
-        return "ok";
+        return "ok"; // 뷰가 아니라 문자열 그대로 전송->화면에 ok 가 나옴
     }
 
 }
