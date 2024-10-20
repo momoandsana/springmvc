@@ -57,6 +57,10 @@ public class RequestBodyStringController {
 
         return new HttpEntity<>("ok");
     }
+    /*
+    요청이 올 때는 인수로 HttpEntity(RequestEntity)
+    그 요청에 대한 응답을 할 때는 HttpEntity(ResponseEntity)를 반환
+     */
 
 //    @PostMapping("/request-body-string-v3")
 //    public HttpEntity<String> requestBodyStringV3(RequestEntity<String> httpEntity)throws IOException
